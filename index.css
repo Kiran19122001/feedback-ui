@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    font-family: monospace;
+    
+}
+.container{
+    /* height: 250px; */
+    width: 85%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 255, 0.5);
+
+}
+.rating img {
+    width: 40px;
+}
+container .head {
+    color: darkred;
+    letter-spacing: 2px;
+    text-shadow: 1px 6px 5px rgba(0, 0, 0, 0.5);
+}
+.ratings-container {
+    display: flex;
+    padding: 20px 0;
+
+}
+.rating {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 15px;
+}
+.rating:hover,.rating.active {
+    background-color: aquamarine;
+    color: rgb(13, 109, 193) ;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease;
+}
+.rating small {
+    font-size: 15px;
+}
+.container .btn{
+    margin: 25px;
+    font-size: 17px;
+    padding: 10px;
+    background-color: rgb(87, 196, 196);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.container .btn:hover{
+    box-shadow:1px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: .3sec ease;
+}
+.container .btn:active{
+    transform: scale(.95);
+} 
+.error{
+    font-size:15px;
+    color: red;
+    margin-top: -10px;
+}
+.style{
+    color:blue;
+}
